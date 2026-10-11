@@ -6,6 +6,7 @@ import math
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+
 def summarize(paths):
     counts = {'passed':0, 'failed':0, 'errored':0, 'skipped':0}
     cases, invalid = [], []

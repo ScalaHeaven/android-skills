@@ -4,6 +4,7 @@ import argparse
 import json
 from pathlib import Path
 
+
 def analyze(graph):
     if not isinstance(graph, dict) or not all(isinstance(k, str) and isinstance(v, list) and all(isinstance(x, str) for x in v) for k,v in graph.items()):
         raise ValueError('Expected an object mapping module names to lists of dependency names')

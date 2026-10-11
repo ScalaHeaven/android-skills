@@ -4,6 +4,7 @@ import argparse
 import json
 from pathlib import Path
 
+
 def database(path):
     data = json.loads(path.read_text(encoding='utf-8'))
     if not isinstance(data, dict) or not isinstance(data.get('database'), dict):

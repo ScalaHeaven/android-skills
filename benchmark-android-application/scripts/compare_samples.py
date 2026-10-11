@@ -6,6 +6,7 @@ import math
 import statistics
 from pathlib import Path
 
+
 def load(path):
     data = json.loads(path.read_text(encoding='utf-8'))
     if not isinstance(data, dict) or not isinstance(data.get('metric'), str) or not isinstance(data.get('unit'), str):

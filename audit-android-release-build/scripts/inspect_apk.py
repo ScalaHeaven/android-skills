@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Inventory an APK/AAB ZIP. Does not prove signing or ELF/load compatibility."""
 import argparse
-from collections import Counter
 import json
 import re
 import zipfile
+from collections import Counter
 from pathlib import Path
+
 
 def inspect(path):
     with zipfile.ZipFile(path) as archive:

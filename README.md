@@ -8,43 +8,69 @@ instructions, this overview and the category catalog are written in English.
 - 84 separate directories with SKILL.md, YAML metadata and agents/openai.yaml.
 - 84 domain-specific reference files at references/field-notes.md.
 - 7 helper Python scripts using the standard library.
-- A catalog, structural validation results and 17 script checks in _bundle/.
-- Three practical skill checks with explicitly stated environment limitations.
+- GitHub Actions workflows for validation and release packaging.
+- Regression tests for helper scripts, metadata validation and release archives.
 
 ## Installation in Codex
 
-Extract the archive. Copy the desired skill directories directly into the skills
-directory under CODEX_HOME, if set. The default paths are:
+Clone this repository or extract a release archive. Copy the desired skill
+directories directly into the skills directory under CODEX_HOME, if set.
+The default paths are:
 
 - Linux/macOS: ~/.codex/skills/<skill-name>/SKILL.md
 - Windows: %USERPROFILE%\.codex\skills\<skill-name>\SKILL.md
 
 Keep agents/, references/ and scripts/ alongside SKILL.md. Do not add an extra
 directory level around a skill. If a skill with the same name already exists,
-compare versions before replacing it. The _bundle directory and this overview
-are not skills and do not need to be installed.
+compare versions before replacing it. Root-level scripts/, tests/, .github/ and
+this overview are repository tooling and do not need to be installed as skills.
 Refresh your Codex session after installation. Invoke a skill by name, such as
 $develop-jetpack-compose, or through a relevant task. Each skill is standalone
 and does not depend on other skills in this collection.
 
-## Verifying the extracted archive
+## Validation and CI
 
-Python 3.10 or later is required:
+The helper scripts require Python 3.10 or later. CI uses Python 3.14 and runs on
+Linux, Windows and macOS for pushes, pull requests and manual dispatches. It checks
+Python lint, types and syntax, validates skill metadata and local Markdown links,
+builds a release ZIP from tracked files and runs the regression tests.
+
+Run the same checks from a repository checkout:
 
 ```bash
-python3 _bundle/verify_bundle.py
-python3 _bundle/test_helpers.py
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-On Windows, use python or py -3 instead of python3. Hash verification detects
-missing or modified files but does not authenticate the archive's authorship.
+On Windows, use python or py -3 instead of python3, then activate with PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+With the environment active:
+
+```bash
+python -m pip install -r requirements-ci.txt
+ruff check
+pyright --warnings
+python -B scripts/release_skills.py --output dist/android-skills.zip
+python -B -m unittest discover -s tests -v
+```
+
+New skill resources must be staged with git add before packaging, because only
+tracked files are included.
 The skill scripts read local data; they do not run Gradle, control devices or
 publish applications.
 
+Publishing a GitHub release runs the release workflow, validates the skills and
+uploads android-skills.zip. The archive contains the README and standalone skill
+directories; CI tooling, tests, hidden files and generated artifacts are excluded.
+
 ## Validation limits
 
-Structure and local links have been checked for all 84 skills. The seven scripts
-have been checked against 17 synthetic scenarios with valid and invalid data.
+Structure and local links are validated for all 84 skills. The seven scripts
+are tested with synthetic fixtures containing valid and invalid data.
 The practical examples do not constitute a complete Android project. Android
 builds, UI tests and physical-device checks have not been run for these examples.
 Verify support for specific Android APIs and current app store policies when
