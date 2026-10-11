@@ -1,4 +1,4 @@
 interface:
   display_name: "Localize an Android application"
   short_description: "Android: Localize an Android application"
-  default_prompt: "Use $localize-android-application to add Ukrainian and English trip statistics with correct plural forms and timestamps."
+  default_prompt: "Use $localize-android-application to add English trip statistics with correct plural forms and timestamps."

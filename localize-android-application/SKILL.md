@@ -19,7 +19,7 @@ Preserve the project's chosen stack unless a concrete limitation warrants changi
 2. Move translatable content to resources with context and stable placeholder contracts.
 3. Use plural and locale-aware number/date formatting; distinguish device locale from explicit user settings.
 4. Handle RTL direction, mixed-script text and locale-aware input without reversing semantically fixed graphics.
-5. Test pseudolocales, long translations, Ukrainian plurals and runtime language changes.
+5. Test pseudolocales, long translations, English plurals and runtime language changes.
 
 ## Verify completion
 

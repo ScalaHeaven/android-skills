@@ -10,7 +10,7 @@
 
 ## Practice task
 
-Add Ukrainian and English trip statistics with correct plural forms and timestamps.
+Add English trip statistics with correct plural forms and timestamps.
 
 Before changing code, write the observable expected result and identify the component owning
 state, resources and failure recovery. Inspect the smallest complete path that can explain the
