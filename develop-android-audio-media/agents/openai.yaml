@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android audio and media"
+  short_description: "Android: Develop Android audio and media"
+  default_prompt: "Use $develop-android-audio-media to record speech for an on-device ASR pipeline and handle Bluetooth route changes."

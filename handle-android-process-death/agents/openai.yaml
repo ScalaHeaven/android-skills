@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handle Android process death"
+  short_description: "Android: Handle Android process death"
+  default_prompt: "Use $handle-android-process-death to restore an unsent form after background process termination without duplicating a submitted request."

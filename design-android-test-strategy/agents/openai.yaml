@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Android test strategy"
+  short_description: "Android: Design Android test strategy"
+  default_prompt: "Use $design-android-test-strategy to create a test plan for background trip recording and offline upload."

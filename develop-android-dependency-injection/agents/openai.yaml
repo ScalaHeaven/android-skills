@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android dependency injection"
+  short_description: "Android: Develop Android dependency injection"
+  default_prompt: "Use $develop-android-dependency-injection to introduce a shared repository while keeping screen state holders independent."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Threat-model an Android app"
+  short_description: "Android: Threat-model an Android app"
+  default_prompt: "Use $threat-model-android-app to threat-model an app that stores location history and shares selected trips."

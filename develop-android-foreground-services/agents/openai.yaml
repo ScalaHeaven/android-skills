@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android foreground services"
+  short_description: "Android: Develop Android foreground services"
+  default_prompt: "Use $develop-android-foreground-services to record a user-started trip with location while the screen is off."

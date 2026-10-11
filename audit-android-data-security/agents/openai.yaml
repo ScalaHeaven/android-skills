@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android data security"
+  short_description: "Android: Audit Android data security"
+  default_prompt: "Use $audit-android-data-security to protect cached location history while preserving a clear recovery policy."

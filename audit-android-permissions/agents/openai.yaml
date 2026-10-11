@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android permissions"
+  short_description: "Android: Audit Android permissions"
+  default_prompt: "Use $audit-android-permissions to make trip recording handle approximate location and later permission revocation."

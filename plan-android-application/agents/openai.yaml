@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan an Android application"
+  short_description: "Android: Plan an Android application"
+  default_prompt: "Use $plan-android-application to specify an offline trip recorder that uploads trips when connectivity returns."

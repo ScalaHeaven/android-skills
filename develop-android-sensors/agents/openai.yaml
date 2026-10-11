@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android sensor pipelines"
+  short_description: "Android: Develop Android sensor pipelines"
+  default_prompt: "Use $develop-android-sensors to feed accelerometer and gyroscope samples into a Rust navigation estimator."

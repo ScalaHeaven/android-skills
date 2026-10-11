@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android navigation"
+  short_description: "Android: Develop Android navigation"
+  default_prompt: "Use $develop-android-navigation to open a trip detail from a notification while preserving a useful back stack."

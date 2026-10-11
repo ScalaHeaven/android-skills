@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android notifications"
+  short_description: "Android: Develop Android notifications"
+  default_prompt: "Use $develop-android-notifications to show recording status with pause and stop actions that remain correct after recreation."

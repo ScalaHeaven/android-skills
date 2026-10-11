@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Android continuous integration"
+  short_description: "Android: Maintain Android continuous integration"
+  default_prompt: "Use $maintain-android-ci to add an emulator job for lifecycle regressions while keeping unit checks fast."

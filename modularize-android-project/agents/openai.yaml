@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modularize an Android project"
+  short_description: "Android: Modularize an Android project"
+  default_prompt: "Use $modularize-android-project to extract trip storage from a single-module app without introducing circular feature dependencies."

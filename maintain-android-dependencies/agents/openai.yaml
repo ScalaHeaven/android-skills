@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Android dependencies"
+  short_description: "Android: Maintain Android dependencies"
+  default_prompt: "Use $maintain-android-dependencies to upgrade Compose and Kotlin together without breaking compiler-plugin compatibility."

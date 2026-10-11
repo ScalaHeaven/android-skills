@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize Android builds"
+  short_description: "Android: Optimize Android builds"
+  default_prompt: "Use $optimize-android-build to find why a one-file Kotlin edit rebuilds unrelated Android modules."

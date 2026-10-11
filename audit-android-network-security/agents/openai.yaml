@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android network security"
+  short_description: "Android: Audit Android network security"
+  default_prompt: "Use $audit-android-network-security to audit a help WebView and an API client before releasing sensitive data features."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize Compose performance"
+  short_description: "Android: Optimize Compose performance"
+  default_prompt: "Use $optimize-compose-performance to reduce map overlay jank while location state changes frequently."

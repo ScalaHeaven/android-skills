@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Android architecture"
+  short_description: "Android: Review Android architecture"
+  default_prompt: "Use $review-android-architecture to review a trip application where the Activity owns database writes and location callbacks."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android file storage"
+  short_description: "Android: Develop Android file storage"
+  default_prompt: "Use $develop-android-file-storage to import a large audio file from a cloud document provider and export a processed copy."

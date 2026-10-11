@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android release builds"
+  short_description: "Android: Audit Android release builds"
+  default_prompt: "Use $audit-android-release-build to diagnose a Rust JNI method that disappears only in a minified release build."

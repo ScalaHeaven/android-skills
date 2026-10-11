@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Android coroutines and Flow"
+  short_description: "Android: Test Android coroutines and Flow"
+  default_prompt: "Use $test-android-coroutines-flow to verify a debounced search ignores cancelled results and releases its upstream subscription."

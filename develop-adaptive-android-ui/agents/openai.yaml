@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop adaptive Android UI"
+  short_description: "Android: Develop adaptive Android UI"
+  default_prompt: "Use $develop-adaptive-android-ui to show a trip list and selected trip detail side by side on a wide window."

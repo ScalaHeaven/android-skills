@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android IPC"
+  short_description: "Android: Develop Android IPC"
+  default_prompt: "Use $develop-android-ipc to expose a bounded read-only trip provider to an explicitly authorized companion app."

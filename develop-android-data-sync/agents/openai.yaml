@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android data synchronization"
+  short_description: "Android: Develop Android data synchronization"
+  default_prompt: "Use $develop-android-data-sync to synchronize offline trip notes edited on two devices."

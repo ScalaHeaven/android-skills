@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Kotlin for Android"
+  short_description: "Android: Review Kotlin for Android"
+  default_prompt: "Use $review-android-kotlin to review a helper that caches an Activity and assumes a hardware sensor is always present."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android realtime networking"
+  short_description: "Android: Develop Android realtime networking"
+  default_prompt: "Use $develop-android-realtime-networking to resume live fleet updates after Wi-Fi changes to mobile data."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android forms"
+  short_description: "Android: Develop Android forms"
+  default_prompt: "Use $develop-android-forms to build an appointment form with localized date input and recoverable API errors."

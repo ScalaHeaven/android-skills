@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debug Android crashes and ANRs"
+  short_description: "Android: Debug Android crashes and ANRs"
+  default_prompt: "Use $debug-android-crashes-anrs to diagnose an ANR while stopping a recorder that waits for native worker shutdown."

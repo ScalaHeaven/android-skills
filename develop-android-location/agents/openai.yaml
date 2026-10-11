@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android location features"
+  short_description: "Android: Develop Android location features"
+  default_prompt: "Use $develop-android-location to prevent a stale last-known location from starting a trip at the wrong point."

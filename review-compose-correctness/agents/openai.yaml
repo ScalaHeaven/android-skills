@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Compose correctness"
+  short_description: "Android: Review Compose correctness"
+  default_prompt: "Use $review-compose-correctness to fix a listener that keeps invoking an old callback after a composable parameter changes."

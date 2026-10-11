@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release an Android application"
+  short_description: "Android: Release an Android application"
+  default_prompt: "Use $release-android-application to prepare a signed trip-recorder release for an internal test track."

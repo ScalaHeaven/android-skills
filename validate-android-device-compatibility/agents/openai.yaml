@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Android device compatibility"
+  short_description: "Android: Validate Android device compatibility"
+  default_prompt: "Use $validate-android-device-compatibility to verify navigation recording on a low-memory phone without a gyroscope."

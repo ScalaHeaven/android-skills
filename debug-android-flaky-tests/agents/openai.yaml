@@ -1,0 +1,4 @@
+interface:
+  display_name: "Debug flaky Android tests"
+  short_description: "Android: Debug flaky Android tests"
+  default_prompt: "Use $debug-android-flaky-tests to fix a Compose test that intermittently taps a loading screen before data arrives."

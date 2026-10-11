@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Android device scenarios"
+  short_description: "Android: Test Android device scenarios"
+  default_prompt: "Use $test-android-device-scenarios to verify recording start, backgrounding, permission revocation and restart on the supported OS matrix."

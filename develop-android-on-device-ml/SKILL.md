@@ -1,0 +1,48 @@
+---
+name: develop-android-on-device-ml
+description: "Integrate Android inference runtimes with verified preprocessing, accelerators and device budgets. Use for ASR, OCR and model deployment."
+---
+
+# Develop Android on-device ML
+
+## Establish the contract
+
+Read repository instructions and the existing implementation first. Read actual hardware capabilities, units, timestamps, runtime support, ownership and device-level constraints.
+Record the requested outcome, current behavior and constraints. Inspect minSdk, targetSdk,
+compileSdk and installed library/toolchain versions where they affect the task. Verify volatile
+API restrictions, compatibility tables and release policies in current primary documentation.
+Preserve the project's chosen stack unless a concrete limitation warrants changing it.
+
+## Execute the workflow
+
+1. Record model contract, tensors, normalization, tokenizer/labels, license and runtime support.
+2. Build a reference fixture that compares Android preprocessing and outputs with the original model environment.
+3. Choose CPU/GPU/NPU delegates by measured compatibility and benefit; provide a validated fallback.
+4. Own model buffers and inference jobs, bound memory and warmup and keep heavy work off the UI thread.
+5. Measure quality and latency distributions on target hardware including quantized models and thermal conditions.
+
+## Verify completion
+
+- Accelerator presence does not imply full model operator support.
+- Quantization is validated for output quality, not only smaller size.
+- Inference benchmarks include preprocessing when it matters to user latency.
+
+Use replay fixtures for algorithm correctness and physical devices for quality, timing, routing and power claims. Record actual delivered rates, formats and error conditions.
+Choose tests that observe a real failure or acceptance condition; avoid tests that merely mirror
+the implementation. Reproduce a reported regression before fixing it when feasible. State any
+missing device, backend or signing environment instead of claiming unexecuted checks passed.
+
+## Use the bundled reference
+
+Read [field-notes.md](references/field-notes.md) for decision boundaries, a concrete task and
+its verification plan. Use its primary-source links to resolve version-specific questions.
+Keep this skill standalone; related installed skills are optional assistance, not prerequisites.
+
+## Return evidence
+
+Report the resulting behavior, changed artifacts and why the decision fits the contract.
+Include executed checks and their actual outcomes, then any material unverified cases.
+For reviews, give source locations, impact and a bounded repair. For plans, give acceptance
+criteria and dependencies. For performance work, include measurement conditions and raw results.
+Keep credentials and sensitive user data out of reports. Continue authorized implementation
+and verification; do not add an approval step for routine reversible work.

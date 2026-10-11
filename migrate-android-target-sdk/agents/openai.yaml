@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migrate Android target SDK"
+  short_description: "Android: Migrate Android target SDK"
+  default_prompt: "Use $migrate-android-target-sdk to raise target SDK for a recorder while retaining correct service start and UI insets."

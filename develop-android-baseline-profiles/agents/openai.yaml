@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android Baseline Profiles"
+  short_description: "Android: Develop Android Baseline Profiles"
+  default_prompt: "Use $develop-android-baseline-profiles to generate a profile for launch, opening a trip and starting a recording."

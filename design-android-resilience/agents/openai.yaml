@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Android resilience"
+  short_description: "Android: Design Android resilience"
+  default_prompt: "Use $design-android-resilience to recover an interrupted audio export without presenting a truncated file as complete."

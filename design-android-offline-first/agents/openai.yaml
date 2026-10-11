@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design offline-first Android data"
+  short_description: "Android: Design offline-first Android data"
+  default_prompt: "Use $design-android-offline-first to allow trip annotation offline and show whether changes have reached the server."

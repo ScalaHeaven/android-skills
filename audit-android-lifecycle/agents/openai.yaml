@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android lifecycle ownership"
+  short_description: "Android: Audit Android lifecycle ownership"
+  default_prompt: "Use $audit-android-lifecycle to find why a map continues receiving location callbacks after leaving its screen."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize Android startup"
+  short_description: "Android: Optimize Android startup"
+  default_prompt: "Use $optimize-android-startup to remove eager model loading from launch while keeping the first screen responsive."

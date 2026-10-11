@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Compose lists and paging"
+  short_description: "Android: Develop Compose lists and paging"
+  default_prompt: "Use $develop-compose-lists-paging to keep a feed usable when its next page fails while preserving the visible scroll position."

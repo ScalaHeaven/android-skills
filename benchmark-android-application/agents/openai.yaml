@@ -1,0 +1,4 @@
+interface:
+  display_name: "Benchmark an Android application"
+  short_description: "Android: Benchmark an Android application"
+  default_prompt: "Use $benchmark-android-application to compare trip-list scrolling before and after a rendering change on the same phone."

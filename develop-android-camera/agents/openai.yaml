@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android CameraX features"
+  short_description: "Android: Develop Android CameraX features"
+  default_prompt: "Use $develop-android-camera to add an OCR analyzer without freezing camera preview when recognition is slow."

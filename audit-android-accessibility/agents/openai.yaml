@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android accessibility"
+  short_description: "Android: Audit Android accessibility"
+  default_prompt: "Use $audit-android-accessibility to make map recording controls and GPS status understandable with TalkBack."

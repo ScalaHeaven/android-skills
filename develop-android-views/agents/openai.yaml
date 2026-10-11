@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android Views"
+  short_description: "Android: Develop Android Views"
+  default_prompt: "Use $develop-android-views to fix wrong selection state caused by recycled holders in an XML trip list."

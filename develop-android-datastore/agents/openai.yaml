@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android DataStore"
+  short_description: "Android: Develop Android DataStore"
+  default_prompt: "Use $develop-android-datastore to migrate recording preferences while preserving the user-selected sampling rate."

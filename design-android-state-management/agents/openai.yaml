@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Android state management"
+  short_description: "Android: Design Android state management"
+  default_prompt: "Use $design-android-state-management to fix a checkout screen that navigates twice after rotation."

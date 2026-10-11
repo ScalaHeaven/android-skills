@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android memory"
+  short_description: "Android: Audit Android memory"
+  default_prompt: "Use $audit-android-memory to find memory growth after opening and closing a waveform editor repeatedly."

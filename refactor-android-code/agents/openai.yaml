@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refactor Android code"
+  short_description: "Android: Refactor Android code"
+  default_prompt: "Use $refactor-android-code to extract trip formatting from a ViewModel without changing saved state or screen transitions."

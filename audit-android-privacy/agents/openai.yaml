@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android privacy"
+  short_description: "Android: Audit Android privacy"
+  default_prompt: "Use $audit-android-privacy to audit location and analytics collection in a trip application."

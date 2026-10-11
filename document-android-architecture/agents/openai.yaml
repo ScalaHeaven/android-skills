@@ -1,0 +1,4 @@
+interface:
+  display_name: "Document Android architecture"
+  short_description: "Android: Document Android architecture"
+  default_prompt: "Use $document-android-architecture to document why recording uses a foreground service and how trip data reaches storage."

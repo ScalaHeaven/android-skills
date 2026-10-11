@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android exported components"
+  short_description: "Android: Audit Android exported components"
+  default_prompt: "Use $audit-android-components to audit a share flow that forwards external intents to an internal activity."

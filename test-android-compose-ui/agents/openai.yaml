@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Android Compose UI"
+  short_description: "Android: Test Android Compose UI"
+  default_prompt: "Use $test-android-compose-ui to test that a failed form submission retains text and displays a retryable error."

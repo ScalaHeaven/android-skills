@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android alarms"
+  short_description: "Android: Develop Android alarms"
+  default_prompt: "Use $develop-android-alarms to schedule a user-selected reminder that updates correctly after its time is edited."

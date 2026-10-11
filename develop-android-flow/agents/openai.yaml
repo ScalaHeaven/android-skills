@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android Flow"
+  short_description: "Android: Develop Android Flow"
+  default_prompt: "Use $develop-android-flow to expose location state to two screens while sharing a single upstream registration."

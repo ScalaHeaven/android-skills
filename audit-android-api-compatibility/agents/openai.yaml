@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android API compatibility"
+  short_description: "Android: Audit Android API compatibility"
+  default_prompt: "Use $audit-android-api-compatibility to verify a location feature supports Android 9 through the project current target."

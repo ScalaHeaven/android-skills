@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android Gradle builds"
+  short_description: "Android: Develop Android Gradle builds"
+  default_prompt: "Use $develop-android-gradle-build to add a staging flavor with a separate endpoint and application ID."

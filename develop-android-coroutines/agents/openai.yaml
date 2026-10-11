@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android coroutines"
+  short_description: "Android: Develop Android coroutines"
+  default_prompt: "Use $develop-android-coroutines to cancel an image import when the user leaves the editor without leaking its file stream."

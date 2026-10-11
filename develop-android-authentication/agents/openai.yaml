@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android authentication"
+  short_description: "Android: Develop Android authentication"
+  default_prompt: "Use $develop-android-authentication to add passkey login with an existing backend and safe account switching."

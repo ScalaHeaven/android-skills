@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Android architecture"
+  short_description: "Android: Design Android architecture"
+  default_prompt: "Use $design-android-architecture to design a feature that displays cached appointments while refreshing from an API."

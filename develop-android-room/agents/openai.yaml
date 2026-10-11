@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android Room storage"
+  short_description: "Android: Develop Android Room storage"
+  default_prompt: "Use $develop-android-room to add altitude samples to an installed trip database while preserving existing trips."

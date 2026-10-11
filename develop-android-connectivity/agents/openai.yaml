@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android device connectivity"
+  short_description: "Android: Develop Android device connectivity"
+  default_prompt: "Use $develop-android-connectivity to connect a BLE sensor and recover when it disconnects during recording."

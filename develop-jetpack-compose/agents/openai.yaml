@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Jetpack Compose screens"
+  short_description: "Android: Develop Jetpack Compose screens"
+  default_prompt: "Use $develop-jetpack-compose to build a trip list with empty, failed refresh and cached-content states."

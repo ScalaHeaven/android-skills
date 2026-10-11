@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android on-device ML"
+  short_description: "Android: Develop Android on-device ML"
+  default_prompt: "Use $develop-android-on-device-ml to deploy a small speech model and compare results with reference audio fixtures."

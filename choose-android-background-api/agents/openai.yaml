@@ -1,0 +1,4 @@
+interface:
+  display_name: "Choose Android background APIs"
+  short_description: "Android: Choose Android background APIs"
+  default_prompt: "Use $choose-android-background-api to choose execution mechanisms for live trip recording and deferred trip uploads."

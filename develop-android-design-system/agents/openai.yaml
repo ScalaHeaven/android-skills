@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop an Android design system"
+  short_description: "Android: Develop an Android design system"
+  default_prompt: "Use $develop-android-design-system to unify navigation buttons and status cards across five screens."

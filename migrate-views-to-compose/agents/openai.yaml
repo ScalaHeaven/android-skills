@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migrate Views to Compose"
+  short_description: "Android: Migrate Views to Compose"
+  default_prompt: "Use $migrate-views-to-compose to replace one Fragment screen with Compose while retaining the existing navigation graph."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Android units and ViewModels"
+  short_description: "Android: Test Android units and ViewModels"
+  default_prompt: "Use $test-android-unit to test a ViewModel that keeps cached trips visible when refresh fails."

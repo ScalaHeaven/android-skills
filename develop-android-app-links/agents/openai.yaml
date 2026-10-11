@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android App Links"
+  short_description: "Android: Develop Android App Links"
+  default_prompt: "Use $develop-android-app-links to open a shared trip URL in the app and send signed-out users through login."

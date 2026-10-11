@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android WorkManager jobs"
+  short_description: "Android: Develop Android WorkManager jobs"
+  default_prompt: "Use $develop-android-workmanager to upload pending trips only under chosen network constraints without enqueuing duplicates."

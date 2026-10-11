@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android networking"
+  short_description: "Android: Develop Android networking"
+  default_prompt: "Use $develop-android-networking to upload a recorded trip without duplicating it when the response is lost."

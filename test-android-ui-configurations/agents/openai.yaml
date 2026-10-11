@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Android UI configurations"
+  short_description: "Android: Test Android UI configurations"
+  default_prompt: "Use $test-android-ui-configurations to verify settings on a small phone with large text and on a resizable tablet window."

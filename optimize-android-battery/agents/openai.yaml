@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize Android battery use"
+  short_description: "Android: Optimize Android battery use"
+  default_prompt: "Use $optimize-android-battery to reduce energy consumption of an hour-long trip recording without losing required samples."

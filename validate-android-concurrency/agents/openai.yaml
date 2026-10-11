@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Android concurrency"
+  short_description: "Android: Validate Android concurrency"
+  default_prompt: "Use $validate-android-concurrency to prevent a slow search response from overwriting a newer query result."

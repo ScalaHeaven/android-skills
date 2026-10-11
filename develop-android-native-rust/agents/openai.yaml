@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android native Rust integration"
+  short_description: "Android: Develop Android native Rust integration"
+  default_prompt: "Use $develop-android-native-rust to integrate a Rust sensor-processing worker and stop it safely when recording ends."

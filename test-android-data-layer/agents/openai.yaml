@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Android data layers"
+  short_description: "Android: Test Android data layers"
+  default_prompt: "Use $test-android-data-layer to test an outbox that must not lose a queued trip after a database migration."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Profile Android performance"
+  short_description: "Android: Profile Android performance"
+  default_prompt: "Use $profile-android-performance to find why opening a long trip blocks interaction for several hundred milliseconds."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android observability"
+  short_description: "Android: Develop Android observability"
+  default_prompt: "Use $develop-android-observability to track recording-start failure categories without uploading raw coordinates."

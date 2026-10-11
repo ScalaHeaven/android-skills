@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage Android production issues"
+  short_description: "Android: Triage Android production issues"
+  default_prompt: "Use $triage-android-production-issues to investigate reports that recording stops only after a screen-off period on one OEM."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Android static analysis"
+  short_description: "Android: Maintain Android static analysis"
+  default_prompt: "Use $maintain-android-static-analysis to resolve a target-SDK lint regression without disabling the relevant Android rule."

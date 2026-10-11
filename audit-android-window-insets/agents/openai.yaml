@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Android window insets"
+  short_description: "Android: Audit Android window insets"
+  default_prompt: "Use $audit-android-window-insets to fix a bottom action button obscured by the keyboard on an edge-to-edge form."

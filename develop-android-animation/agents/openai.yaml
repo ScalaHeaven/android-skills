@@ -1,0 +1,4 @@
+interface:
+  display_name: "Develop Android animations"
+  short_description: "Android: Develop Android animations"
+  default_prompt: "Use $develop-android-animation to animate recording controls that can be rapidly started and stopped."
